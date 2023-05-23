@@ -70,7 +70,7 @@ Below is automatically generated documentation on this Terraform module using [t
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_envoy_service"></a> [envoy\_service](#module\_envoy\_service) | github.com/pbs/terraform-aws-ecs-service-module | 0.0.1 |
+| <a name="module_envoy_service"></a> [envoy\_service](#module\_envoy\_service) | github.com/pbs/terraform-aws-ecs-service-module | 4.0.2 |
 
 ## Resources
 
