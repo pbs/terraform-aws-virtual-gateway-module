@@ -1,6 +1,6 @@
 module github.com/pbs/terraform-aws-virtual-gateway-module
 
-go 1.13
+go 1.20
 
 require (
 	github.com/gruntwork-io/terratest v0.32.2
