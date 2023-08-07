@@ -7,7 +7,7 @@
 Use this URL for the source of the module. See the usage examples below for more details.
 
 ```hcl
-github.com/pbs/terraform-aws-virtual-gateway-module?ref=0.0.11
+github.com/pbs/terraform-aws-virtual-gateway-module?ref=x.y.z
 ```
 
 ### Alternative Installation Methods
@@ -22,7 +22,7 @@ Integrate this module like so:
 
 ```hcl
 module "vgw" {
-  source = "github.com/pbs/terraform-aws-virtual-gateway-module?ref=0.0.11"
+  source = "github.com/pbs/terraform-aws-virtual-gateway-module?ref=x.y.z"
 
   # Required Parameters
   mesh_name = module.mesh.id
@@ -41,7 +41,7 @@ module "vgw" {
 
 If this repo is added as a subtree, then the version of the module should be close to the version shown here:
 
-`0.0.11`
+`x.y.z`
 
 Note, however that subtrees can be altered as desired within repositories.
 
@@ -64,13 +64,13 @@ Below is automatically generated documentation on this Terraform module using [t
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.10.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.11.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_envoy_service"></a> [envoy\_service](#module\_envoy\_service) | github.com/pbs/terraform-aws-ecs-service-module | 4.1.8 |
+| <a name="module_envoy_service"></a> [envoy\_service](#module\_envoy\_service) | github.com/pbs/terraform-aws-ecs-service-module | 4.1.11 |
 
 ## Resources
 
